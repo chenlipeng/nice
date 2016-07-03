@@ -95,7 +95,6 @@ void spin_lock(int *lock, int which) {
             }
         }
 	printf("xxxxxxxxxxxxxxxxzzzzzzzchenlipengx\n");
-
         sched_yield();
     }
 }
